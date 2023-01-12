@@ -109,9 +109,9 @@ static const char *colorname[] = {
   /* 8 bright colors */
   [8]  = "#10151b", /* black   */
   [9]  = "#d26939", /* red     */
-  [10] = "#081f2d", /* green   */
+  [10] = "#93c47d", /* green   */
   [11] = "#245361", /* yellow  */
-  [12] = "#093748", /* blue    */
+  [12] = "#1d46ad", /* blue    */
   [13] = "#888ba5", /* magenta */
   [14] = "#599caa", /* cyan    */
   [15] = "#d3ebe9", /* white   */
@@ -201,8 +201,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ ControlMask,          XK_b,     	kscrollup,      {.i = -1} },
-	{ ControlMask,          XK_f,   	kscrolldown,    {.i = -1} },
+	{ Mod1Mask,          	XK_b,     	kscrollup,      {.i = -1} },
+	{ Mod1Mask,          	XK_f,   	kscrolldown,    {.i = -1} },
 };
 
 /*
